@@ -38,7 +38,7 @@ a:hover{
     padding: 20px 0;text-align: center;
 }
 
-.formulario{
+.formulario,.registro{
     width: 20%;
     margin: auto;
     background:#f2f2f2 ;
@@ -69,7 +69,12 @@ h1{
 }
 
 @media only screen and (max-width: 768px) {
-    .formulario{
+    .formulario,.registro{
         width: 90%;
     }
+}
+
+.registro{
+    margin-top: 25px;
+    text-align: center;
 }
