@@ -7,9 +7,9 @@
 </head>
 <body>
 <div class="container">
-        <ul>
-            <li><a href="index.php" class="menuItem">Inicio</a> </li>
-            <li><a href="tienda.php" class="menuItem">Tienda</a> </li>
-            <li><a href="contacto.php" class="menuItem">Contacto</a></li>
+        <ul class="menu">
+            <li class="lista"><a href="index.php" class="menuItem">Inicio</a> </li>
+            <li class="lista"><a href="tienda.php" class="menuItem">Tienda</a> </li>
+            <li class="lista"><a href="contacto.php" class="menuItem">Contacto</a></li>
         </ul>
 </div>

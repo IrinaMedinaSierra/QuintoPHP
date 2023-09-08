@@ -17,13 +17,13 @@ a{
     text-align: center;
 
 }
-ul{
+.menu{
     list-style:none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-li{
+.lista {
     display: inline;
     padding: 10px;
 }
@@ -38,13 +38,17 @@ a:hover{
     padding: 20px 0;text-align: center;
 }
 
-.formulario{
+.formulario, .registro{
     width: 20%;
     margin: auto;
     background:#f2f2f2 ;
     border: 1px dotted #f2f2f2;
     border-radius: 5px;
     padding: 25px;
+}
+.registro{
+    margin-top: 25px;
+    text-align: center;
 }
 .entradas{
     border:none;
@@ -69,7 +73,16 @@ h1{
 }
 
 @media only screen and (max-width: 768px) {
-    .formulario{
+    .formulario, .registro{
         width: 90%;
     }
+}
+.error{
+    width: 20%;
+    color:red;
+    margin: auto;
+}
+.error ul{
+ list-style: square;
+ padding-left: 50px;
 }
